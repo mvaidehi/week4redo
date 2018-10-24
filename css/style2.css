@@ -1,0 +1,80 @@
+.body-home{
+  display: flex;
+  flex-direction: column; 
+  background:url("../images/SBday1-7226.jpg");
+  background-size: cover;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color:black;
+}
+li{
+	display: inline-block;width:15%;background:white;
+}
+a{
+	text-decoration: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+/*Home page image*/
+img{width: 100%;}
+
+
+/*Navigation Style*/
+nav ul li {
+	text-align: center;
+	border:1px solid black;
+	margin:50px;
+}
+nav ul li a {
+	color: red; 
+	font-family:arial black;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+/*portfolio page grid*/
+.main-content{
+  flex: 1 0 auto;
+  margin-top: 5px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+.photo-cell {
+	grid-column: span 2;
+    padding: 4px;
+  }
+
+/*Header and Footer*/
+header, footer{
+	background-color: #808080;
+	color: #ffffff; 
+}
+footer{
+	color: #ffffff;
+	alignment: padding-bottom;
+	font-size: 12px;
+	text-align: center;
+}
+footer p{
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+
+/*contact page*/
+i{
+	padding-top: 40px;
+}
+
+ 
